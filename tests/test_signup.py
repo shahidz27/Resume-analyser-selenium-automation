@@ -23,10 +23,7 @@ def test_valid_signup(driver):
 
 
 
-import uuid
 
-from pages.signup_page import SignupPage
-from pages.analyzer_page import AnalyzerPage
 
 
 def test_valid_signup(driver):
@@ -46,14 +43,6 @@ def test_valid_signup(driver):
 
     assert analyzer.verify_back_to_upload_screen().is_displayed()
 
-import uuid
-
-from pages.signup_page import SignupPage
-
-
-import uuid
-
-from pages.signup_page import SignupPage
 
 
 def test_duplicate_signup(driver):

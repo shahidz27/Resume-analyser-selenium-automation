@@ -26,7 +26,7 @@ def test_valid_login(driver):
 
     assert analyzer.verify_back_to_upload_screen().is_displayed()
 
-from pages.login_page import LoginPage
+
 
 
 def test_invalid_login(driver):
@@ -44,7 +44,7 @@ def test_invalid_login(driver):
 
     assert error.text == "Invalid credentials"
 
-from pages.login_page import LoginPage
+
 
 
 def test_login_with_empty_credentials(driver):
